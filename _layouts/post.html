@@ -1,0 +1,25 @@
+---
+layout: default
+---
+	<article>
+		<h2>{{ page.title }}</h2>
+        <p class="date">
+            {{ page.date | date:"%B %d, %Y" }} | <a href="{{ post.url }}">permalink</a>
+        </p>
+		<div class="content">
+			{{ content }}
+		</div>
+	</article>
+    <section class="post-nav">
+        {% if page.previous %}       
+        <div class="post-prev"> 
+            <strong>Previous</strong><br><a href="{{ page.previous.url }}" rel="prev">{{ page.previous.title }}</a>
+        </div>
+        {% endif %}
+
+        {% if page.next %} 
+        <div class="post-next">
+            <strong>Next</strong><br> <a href="{{ page.next.url }}" rel="prev">{{ page.next.title }}</a>
+        </div>
+        {% endif %}
+    </section>

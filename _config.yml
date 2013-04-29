@@ -1,0 +1,16 @@
+permalink: /:categories/:year/:month/:day/:title 
+
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+auto: true
+pygments: true
+
+title : Inglourious Coder
+tagline: A Coder's work is never done.
+author :
+  name : Amanpreet Singh
+  email : aps.sids@gmail.com
+  github : aps-sids
+  facebook: amanz008
+  twitter : ApsSIDS
+  linkedin : 91574574
+  google_plus : 114056544272791132056
