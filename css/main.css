@@ -129,6 +129,10 @@ header a {
     text-decoration: none;
 }
 
+header a:hover {
+    text-decoration: none;
+}
+
 header a h1 {
     font-family: 'inglourious';
     font-size: 2.7em;
@@ -159,12 +163,12 @@ h2 {
   margin-bottom: 0;
 }
 
-article a {
+a {
     color: #ABAA8C;
     text-decoration: none;
 }
 
-article a:hover {
+a:hover {
     color: #6c6a4e;
     text-decoration: underline;
 }
