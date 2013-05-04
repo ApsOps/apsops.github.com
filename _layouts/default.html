@@ -16,6 +16,7 @@ layout: default
         <link rel="stylesheet" href="{{ site.url }}/css/main.css">
         <link rel="stylesheet" type="text/css" href="{{site.url}}/fonts/museo/museo.css">
         <script src="{{ site.url }}/js/vendor/modernizr-2.6.2.min.js"></script>
+        <!--[if lte IE 7]><script src="{{ site.url }}/js/lte-ie7.js"></script><![endif]-->
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -35,6 +36,38 @@ layout: default
 
         </div>
         <footer>
+            <ul class="social">
+                <li>
+                    <a href="http://facebook.com/{{ site.author.facebook }}" aria-hidden="true" data-icon="&#xe001;" class="facebook" target="_blank">
+                        <span class="hovertext">Facebook</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://twitter.com/{{ site.author.twitter }}" aria-hidden="true" data-icon="&#xe002;" class="twitter" target="_blank">
+                        <span class="hovertext">Twitter</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://plus.google.com/{{ site.author.google_plus }}" aria-hidden="true" data-icon="&#xe005;" class="gplus" target="_blank">
+                        <span class="hovertext">Google+</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.linkedin.com/pub/{{ site.author.linkedin }}" aria-hidden="true" data-icon="&#xe010;" class="linkedin" target="_blank">
+                        <span class="hovertext">Linkedin</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://github.com/{{ site.author.github }}" aria-hidden="true" data-icon="&#xe000;" class="github" target="_blank">
+                        <span class="hovertext">Github</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:{{ site.author.email }}" aria-hidden="true" data-icon="&#xe00a;" class="mail" target="_blank">
+                        <span class="hovertext">Mail</span>
+                    </a>
+                </li>
+            </ul>
             <p>Handcrafted with love, by {{ site.author.name }}<br /><span>&copy; 2013 | Powered by Jekyll</span></p>
         </footer>
 
