@@ -108,7 +108,7 @@ html {
 }
 
 .wrapper {
-    text-align: left;
+    text-align: justify;
     width: 600px;
     margin: 0 auto;
 }
@@ -173,18 +173,6 @@ a:hover {
     text-decoration: underline;
 }
 
-footer {
-    padding: 10px 0;
-    text-align: center;
-    border-top: 1px solid #3E3C2D;
-    width: 700px;
-    margin: auto;
-}
-
-footer span {
-    font-size: 16px;
-}
-
 article {
     border-bottom: 1px dotted #3E3C2D;
     margin: 10px;
@@ -230,6 +218,30 @@ article {
 
 .recent a:hover {
     color: #ABAA8C;
+}
+
+.post-nav {
+    margin: 10px;
+}
+
+.post-nav .post-prev {
+    float: left;
+}
+
+.post-nav .post-next {
+    text-align: right;
+}
+
+footer {
+    padding: 10px 0;
+    text-align: center;
+    border-top: 1px solid #3E3C2D;
+    width: 700px;
+    margin: auto;
+}
+
+footer span {
+    font-size: 16px;
 }
 
 footer p {
