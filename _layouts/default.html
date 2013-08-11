@@ -30,10 +30,18 @@ layout: default
             </div>
         </header>
 
-        <div class="wrapper">
+        <div class="wrapper clearfix">
+            <div class="main">
             
             {{ content }}
 
+            </div>
+            <aside>
+                <img src="/images/aman-image.jpg" alt="Aman's Image" />
+                <p>Hi, I'm <strong>Amanpreet Singh</strong>. Learn more <a href="/about/">about me</a>.</p>
+                <p>Have a look around and please don’t hesitate to <a href="mailto:{{ site.author.email }}">contact me</a> with any questions, comments or just to say hello :)</p>
+                <p>Follow me on <a href="http://twitter.com/{{ site.author.twitter }}" target="_blank">Twitter</a>.</p>
+            </aside>
         </div>
         <footer>
             <ul class="social">
