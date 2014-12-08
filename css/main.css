@@ -109,7 +109,7 @@ html {
 
 .wrapper {
     text-align: justify;
-    width: 900px;
+    width: 1000px;
     margin: 0 auto;
 }
 
@@ -119,7 +119,7 @@ html {
 
 header {
     text-align: center;
-    width: 900px;
+    width: 1000px;
     margin: 15px auto;
     padding-bottom: 10px;
     border-bottom: 1px solid #6c6a4e;
@@ -177,7 +177,7 @@ a:hover {
 
 .main {
     float: left;
-    width: 70%
+    width: 77%
 }
 
 article {
@@ -188,7 +188,7 @@ article {
 
 aside {
     float: right;
-    width: 30%;
+    width: 23%;
     text-align: right;
 }
 
@@ -196,6 +196,7 @@ aside img {
     border-radius: 50%;
     margin: 10px;
     width: 70%;
+    max-width: 200px;
 }
 
 .recent {
@@ -255,7 +256,7 @@ footer {
     padding: 10px 0;
     text-align: center;
     border-top: 1px solid #3E3C2D;
-    width: 900px;
+    width: 1000px;
     margin: auto;
 }
 
@@ -350,6 +351,24 @@ footer .social a.mail:hover {
     2px -2px 0 #C63D2D,
    -2px  2px 0 #C63D2D,
     2px  2px 0 #C63D2D;
+}
+
+@media (max-width:999px) {
+    body {
+        font-size: 14px;
+    }
+
+    .wrapper, header, .main, aside, footer {
+        width: 100%;
+    }
+
+    aside {
+        text-align: center;
+    }
+
+    aside img {
+        width: 40%;
+    }
 }
 
 /*-----------------------------------------------*/
