@@ -133,20 +133,8 @@ header a:hover {
     text-decoration: none;
 }
 
-header a h1 {
-    width: 700px;
-    margin: auto;
-    font-family: 'inglourious';
-    font-size: 2.7em;
-    font-weight: 500;
-    color: #fff;
-    line-height: 38px;
-    text-align: center;
-    text-transform: uppercase;
-    transform:rotate(-2deg);
-    -o-transform:rotate(-2deg);
-    -moz-transform:rotate(-2deg);
-    -webkit-transform:rotate(-2deg);
+header a img {
+    max-width: 99%;
 }
 
 header h3 {
@@ -383,16 +371,6 @@ footer .social a.mail:hover {
   font-weight: 300;
   src: local('Open Sans Light'), local('OpenSans-Light'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff) format('woff');
 }
-
-/*----------------------------------------------
-------------  Inglourious font -----------------
------------------------------------------------*/
-
-@font-face {
-  font-family: 'inglourious';
-  src: url("../fonts/inglourious/fette.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal; }
 
 /*----------------------------------------------
 --------------  Icon font  ---------------------
